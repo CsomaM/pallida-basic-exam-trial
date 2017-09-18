@@ -14,7 +14,7 @@ public class OddFilter {
         System.out.println ("I'm gonna read number until you write *.");
         ArrayList numbers = new ArrayList();
         Scanner sc = new Scanner(System.in);
-        String scan ="";
+        String scan = "";
         int n = 0;
         do {
             scan = sc.next();
@@ -42,7 +42,7 @@ public class OddFilter {
 
     static void print (ArrayList list) {
         for (int i = 0; i < list.size(); i++) {
-            System.out.print(list.get(i) + "," );
+            System.out.print(list.get(i) + ", " );
         }
     }
 }
